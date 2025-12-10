@@ -68,7 +68,7 @@ public class LoanController {
 	}
 	@GetMapping("/pavan")
 	public String method() {
-		return "pavan";
+		return "pavan sai kommi";
 		
 	}
 }
