@@ -66,4 +66,9 @@ public class LoanController {
 		return new ResponseEntity<>(HttpStatusCode.valueOf(204));
 		//return new ResponseEntity<>(HttpStatus.NO_CONTENT);
 	}
+	@GetMapping("/pavan")
+	public String method() {
+		return "pavan";
+		
+	}
 }
